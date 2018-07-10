@@ -10,6 +10,10 @@ layout: default
   {% endif %}
 
   {{ content }}
+
+  {% if page.tags %}
+    {{ page.tags }}
+  {% endif %}
 </div>
 
 <div class="related">

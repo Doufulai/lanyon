@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Who am I
-Comments: true
+comments: true
 ---
 
 ## Haha

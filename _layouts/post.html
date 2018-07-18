@@ -11,6 +11,10 @@ layout: default
   {% if page.tags %}
     {{ page.tags }}
   {% endif %}
+
+  {% if page.comments %}
+    {% include comments.html %}
+  {% endif %}
 </div>
 
 <div class="related">

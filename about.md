@@ -9,7 +9,7 @@ I was working as a Aerospace Engineer in Singapore. I used to live with Bending 
 
 and implementing various exciting AI features into the platform.
 
-## You might think: How do I plan my journey to becoming a Deep Learning expert?
+## ** You might think: How do I plan my journey to becoming a Deep Learning expert? **
 
 I have given myself a very tight schedule to learn anything from basic machine learning techniques to advanced reinforcement learning. I have taken the entire specialization in deep learning which was taught by Dr Andrew Ng.
 

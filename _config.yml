@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Doufu
 tagline:             'A casual developer - enjoy AI and Game Development'
-description:         'I enjoy learning AI, particularly interested in Deep Learning in Computer Vision. I will be sharing my journey to learning AI from basic Machine Learning to Deep Reinforcement Learning. My goal is to build at least 10 Kaggle projects by the end of 2018.'
+description:         'I enjoy learning AI, particularly interested in Deep Learning in Computer Vision'
 url:                 http://lanyon.getpoole.com
 baseurl:             '/personal-blog'
 paginate:            5

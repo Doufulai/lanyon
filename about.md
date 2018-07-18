@@ -3,28 +3,30 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I was working as a Aerospace Engineer in Singapore. I used to live with Bending Moment, Structural Stress and FEM (Finite Element Modelling) everyday from 9-to-5. Now I am working as a Research Staff in NTU, DSAIR center. My main focus will be developing <a href="https://intellik.dsair.ntu.edu.sg/#/">Intellik</a>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+> IntelliK is a game authoring platform which enables creative people to develop artificial intelligence (AI) powered digital games without requiring any programming skills.
 
-There are currently two themes built on Poole:
+and implementing various exciting AI features into the platform.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+## You might think: How do I plan my journey to becoming a Deep Learning expert?
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I have given myself a very tight schedule to learn anything from basic machine learning techniques to advanced reinforcement learning. I have taken the entire specialization in deep learning which was taught by Dr Andrew Ng.
 
-## Setup
+<div class="message">
+  In case you are interested to see my courses that I have taken. Here is the list:
 
-Some fun facts about the setup of this project include:
+  1. Deep Learning
+    * <a href="https://www.coursera.org/account/accomplishments/certificate/456HWSAHGLTZ">Neural Networks and Deep Learning</a>
+    * <a href="https://www.coursera.org/account/accomplishments/certificate/3QDZF7M4UVPX">Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</a>
+    * <a href="https://www.coursera.org/account/accomplishments/certificate/8ZY8EYYDQJQY">Structuring Machine Learning Projects</a>
+    * <a href="https://www.coursera.org/account/accomplishments/certificate/H3UJ7HDK3GYP">Convolutional Neural Networks</a>
+    * <a href="https://www.coursera.org/account/accomplishments/certificate/3E9RVJKDGZPK">Sequence Models</a>  
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+  2. Computer programming
+    * <a href="https://www.coursera.org/account/accomplishments/certificate/S6983DF6XPQS">Introduction to Data Science in Python</a>
+    * <a href="https://www.lynda.com/ViewCertificate/A772018894EC4CC585F80F7837869608?utm_source=directlink&utm_medium=sharing&utm_campaign=certificate">Data Visualization with D3.js</a>
+    * <a href="https://www.lynda.com/MATLAB-tutorials/Up-Running-MATLAB/124067-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate">Up and Running with MATLAB</a>
+    * <a href="https://www.datacamp.com/courses/intermediate-python-for-data-science?utm_source=LinkedIn&utm_medium=Certificate&utm_content=Certificate&utm_campaign=Linkedin-Certificate">Intermediate Python for Data Science</a>
+    * <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science?utm_source=LinkedIn&utm_medium=Certificate&utm_content=Certificate&utm_campaign=Linkedin-Certificate">Intro to Python for Data Science</a>  
+</div>

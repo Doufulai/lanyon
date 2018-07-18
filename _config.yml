@@ -13,9 +13,10 @@ paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jasper Lai Woen Yon
+  url:               https://www.facebook.com/doufulai
+  email:             wushulai@live.com
+  gravatar_md5:      4917fd2085b73c85671626b4385cbbec
 
 # Custom vars
 version:             1.0.0

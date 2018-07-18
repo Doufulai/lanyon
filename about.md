@@ -13,20 +13,18 @@ and implementing various exciting AI features into the platform.
 
 I have given myself a very tight schedule to learn anything from basic machine learning techniques to advanced reinforcement learning. I have taken the entire specialization in deep learning which was taught by Dr Andrew Ng.
 
-<div class="message">
-  In case you are interested to see my courses that I have taken. Here is the list:
+In case you are interested to see my courses that I have taken. Here is the list:
 
-  1. Deep Learning
-    * <a href="https://www.coursera.org/account/accomplishments/certificate/456HWSAHGLTZ">Neural Networks and Deep Learning</a>
-    * <a href="https://www.coursera.org/account/accomplishments/certificate/3QDZF7M4UVPX">Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</a>
-    * <a href="https://www.coursera.org/account/accomplishments/certificate/8ZY8EYYDQJQY">Structuring Machine Learning Projects</a>
-    * <a href="https://www.coursera.org/account/accomplishments/certificate/H3UJ7HDK3GYP">Convolutional Neural Networks</a>
-    * <a href="https://www.coursera.org/account/accomplishments/certificate/3E9RVJKDGZPK">Sequence Models</a>  
+1. Deep Learning
+  * <a href="https://www.coursera.org/account/accomplishments/certificate/456HWSAHGLTZ">Neural Networks and Deep Learning</a>
+  * <a href="https://www.coursera.org/account/accomplishments/certificate/3QDZF7M4UVPX">Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</a>
+  * <a href="https://www.coursera.org/account/accomplishments/certificate/8ZY8EYYDQJQY">Structuring Machine Learning Projects</a>
+  * <a href="https://www.coursera.org/account/accomplishments/certificate/H3UJ7HDK3GYP">Convolutional Neural Networks</a>
+  * <a href="https://www.coursera.org/account/accomplishments/certificate/3E9RVJKDGZPK">Sequence Models</a>  
 
-  2. Computer programming
-    * <a href="https://www.coursera.org/account/accomplishments/certificate/S6983DF6XPQS">Introduction to Data Science in Python</a>
-    * <a href="https://www.lynda.com/ViewCertificate/A772018894EC4CC585F80F7837869608?utm_source=directlink&utm_medium=sharing&utm_campaign=certificate">Data Visualization with D3.js</a>
-    * <a href="https://www.lynda.com/MATLAB-tutorials/Up-Running-MATLAB/124067-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate">Up and Running with MATLAB</a>
-    * <a href="https://www.datacamp.com/courses/intermediate-python-for-data-science?utm_source=LinkedIn&utm_medium=Certificate&utm_content=Certificate&utm_campaign=Linkedin-Certificate">Intermediate Python for Data Science</a>
-    * <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science?utm_source=LinkedIn&utm_medium=Certificate&utm_content=Certificate&utm_campaign=Linkedin-Certificate">Intro to Python for Data Science</a>  
-</div>
+2. Computer programming
+  * <a href="https://www.coursera.org/account/accomplishments/certificate/S6983DF6XPQS">Introduction to Data Science in Python</a>
+  * <a href="https://www.lynda.com/ViewCertificate/A772018894EC4CC585F80F7837869608?utm_source=directlink&utm_medium=sharing&utm_campaign=certificate">Data Visualization with D3.js</a>
+  * <a href="https://www.lynda.com/MATLAB-tutorials/Up-Running-MATLAB/124067-2.html?utm_source=linkedin&utm_medium=sharing&utm_campaign=certificate">Up and Running with MATLAB</a>
+  * <a href="https://www.datacamp.com/courses/intermediate-python-for-data-science?utm_source=LinkedIn&utm_medium=Certificate&utm_content=Certificate&utm_campaign=Linkedin-Certificate">Intermediate Python for Data Science</a>
+  * <a href="https://www.datacamp.com/courses/intro-to-python-for-data-science?utm_source=LinkedIn&utm_medium=Certificate&utm_content=Certificate&utm_campaign=Linkedin-Certificate">Intro to Python for Data Science</a>  

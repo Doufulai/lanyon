@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Doufu
 tagline:             'A casual developer - enjoy AI and Game Development'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'I enjoy learning AI, particularly interested in Deep Learning in Computer Vision. I will be sharing my journey to learning AI from basic Machine Learning to Deep Reinforcement Learning. My goal is to build at least 10 Kaggle projects by the end of 2018.'
 url:                 http://lanyon.getpoole.com
 baseurl:             '/personal-blog'
 paginate:            5

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Who am I
+title: Tensorflow Mnist Demo
+tensorflow: true
 comments: true
 ---
 
-## Haha
-
-{% include mnist_tf.html %}
+## This is a tensorflow.js demo

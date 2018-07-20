@@ -5,3 +5,5 @@ comments: true
 ---
 
 ## Haha
+
+{% include mnist_tf.html %}

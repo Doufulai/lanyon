@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Tensorflow Mnist Demo
-tensorflow: true
+tags: Tensorflow Project
 comments: true
 ---
 
 ## This is a tensorflow.js demo
+
+{% include mnist_tf.html %}

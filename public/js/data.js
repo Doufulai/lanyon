@@ -15,7 +15,7 @@
  * =============================================================================
  */
 
-import * as tf from "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0";
+var tf = require("https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0");
 
 const IMAGE_SIZE = 784;
 const NUM_CLASSES = 10;
@@ -71,7 +71,7 @@ class MnistData {
 
           const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
-          for (let j = 0; j < imageData.data.length / 4; j++) {
+          for (let j = 0; j < imageData.data.length() / 4; j++) {
             // All channels hold an equal value since the image is grayscale, so
             // just read the red channel.
             datasetBytesView[j] = imageData.data[j * 4] / 255;
@@ -111,7 +111,7 @@ class MnistData {
     return this.nextBatch(
         batchSize, [this.trainImages, this.trainLabels], () => {
           this.shuffledTrainIndex =
-              (this.shuffledTrainIndex + 1) % this.trainIndices.length;
+              (this.shuffledTrainIndex + 1) % this.trainIndices.length();
           return this.trainIndices[this.shuffledTrainIndex];
         });
   }
@@ -119,7 +119,7 @@ class MnistData {
   nextTestBatch(batchSize) {
     return this.nextBatch(batchSize, [this.testImages, this.testLabels], () => {
       this.shuffledTestIndex =
-          (this.shuffledTestIndex + 1) % this.testIndices.length;
+          (this.shuffledTestIndex + 1) % this.testIndices.length();
       return this.testIndices[this.shuffledTestIndex];
     });
   }

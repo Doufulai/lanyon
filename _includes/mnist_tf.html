@@ -1,22 +1,95 @@
+<script type="text/javascript" src="tensorflow/data.js"></script>
 <script>
+
   // Notice there is no 'import' statement. 'tf' is available on the index-page
   // because of the script tag above.
 
-  // Define a model for linear regression.
+  // instantiate a model
   const model = tf.sequential();
-  model.add(tf.layers.dense({units: 1, inputShape: [1]}));
 
-  // Prepare the model for training: Specify the loss and the optimizer.
-  model.compile({loss: 'meanSquaredError', optimizer: 'sgd'});
+  // add a 2d conv layer
+  model.add(tf.layers.conv2d({
+    inputShape : [28,28,1],
+    kernelSize : 5,
+    filters: 8,
+    strides: 1,
+    activation: 'relu',
+    kernelInitializer: 'VarianceScaling'
+  }));
 
-  // Generate some synthetic data for training.
-  const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
-  const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
+  // add a max pooling layer here, no input shape needed as it will refer to the previous layer
+  model.add(tf.layers.maxpooling2d({
+    poolSize : [2,2],
+    strides : [2,2]
+  }));
 
-  // Train the model using the data.
-  model.fit(xs, ys, {epochs: 10}).then(() => {
-    // Use the model to do inference on a data point the model hasn't seen before:
-    // Open the browser devtools to see the output
-    model.predict(tf.tensor2d([5], [1, 1])).print();
+  // second layer
+  model.add(tf.layers.conv2d({
+    kernelSize : 5, // size of the filter, eg, [5,5]
+    filters: 16,
+    strides: 1,
+    activation: 'relu',
+    kernelInitializer: 'VarianceScaling'
+  }));
+
+  model.add(tf.layers.maxpooling2d({
+    poolSize: [2,2],
+    strides: [2,2]
+  }));
+
+  // flatten the layer into 1D matrix
+  model.add(tf.layers.flatten());
+
+  // create a dense layer for final classifier
+  model.add(tf.layers.dense({
+    units: 10;// size of the output layer
+    kernelInitializer: 'VarianceScaling',
+    activation: 'softmax'
+  }));
+
+  const LEARNING_RATE = 0.2;
+  const optimizer = tf.train.AdamOptimizer(LEARNING_RATE);
+
+  model.compile({
+    optimizer: optimizer,
+    loss: 'categoricalCrossentropy',
+    metrics: ['accuracy'],
   });
+
+  const BATCH_SIZE = 64;
+
+  const TRAIN_BATCHES = 100;
+
+  const TEST_BATCHES = 1000;
+  const TEST_ITERATION_FREQUENCY = 5;
+
+  // Begin training
+  for(let i=0; i<TRAIN_BATCHES; i++){
+    const batch = data.nextTrainBatch(BATCH_SIZE);
+
+    let testBatch;
+    let validationData;
+
+    // Every few batches test the accuracy of the model
+    if(i % TEST_ITERATION_FREQUENCY === 0) {
+      testBatch = data.nextTestBatch(TEST_BATCH_SIZE);
+      validationData = [testBatch.xs.reshape([TEST_BATCH_SIZE, 28, 28, 1]), testBatch.labels];
+    }
+
+    const history = await model.fit(
+        batch.xs.reshape([BATCH_SIZE, 28, 28, 1]),
+        batch.labels,
+        {
+          batchSize: BATCH_SIZE,
+          validationData,
+          epochs: 1
+        });
+
+    const loss = history.history.loss[0];
+    const accuracy = history.history.acc[0];
+
+    document.getElementById("mytext").value = accuracy;
+  }
+
+
 </script>

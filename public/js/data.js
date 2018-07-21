@@ -15,7 +15,7 @@
  * =============================================================================
  */
 
-import * as tf from 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0'
+import * as tf from "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0";
 
 const IMAGE_SIZE = 784;
 const NUM_CLASSES = 10;

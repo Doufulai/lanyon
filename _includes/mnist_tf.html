@@ -47,7 +47,7 @@
   }));
 
   const LEARNING_RATE = 0.2;
-  const optimizer = tf.train.AdamOptimizer(LEARNING_RATE);
+  const optimizer = tf.train.adam(LEARNING_RATE);
 
   model.compile({
     optimizer: optimizer,

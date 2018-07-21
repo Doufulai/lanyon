@@ -17,7 +17,7 @@
   }));
 
   // add a max pooling layer here, no input shape needed as it will refer to the previous layer
-  model.add(tf.layers.maxpooling2d({
+  model.add(tf.layers.maxPooling2d({
     poolSize : [2,2],
     strides : [2,2]
   }));
@@ -31,7 +31,7 @@
     kernelInitializer: 'VarianceScaling'
   }));
 
-  model.add(tf.layers.maxpooling2d({
+  model.add(tf.layers.maxPooling2d({
     poolSize: [2,2],
     strides: [2,2]
   }));

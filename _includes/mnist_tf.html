@@ -64,14 +64,14 @@
 
   // Begin training
   for(let i=0; i<TRAIN_BATCHES; i++){
-    const batch = data.nextTrainBatch(BATCH_SIZE);
+    const batch = MnistData.nextTrainBatch(BATCH_SIZE);
 
     let testBatch;
     let validationData;
 
     // Every few batches test the accuracy of the model
     if(i % TEST_ITERATION_FREQUENCY === 0) {
-      testBatch = data.nextTestBatch(TEST_BATCH_SIZE);
+      testBatch = MnistData.nextTestBatch(TEST_BATCH_SIZE);
       validationData = [testBatch.xs.reshape([TEST_BATCH_SIZE, 28, 28, 1]), testBatch.labels];
     }
 

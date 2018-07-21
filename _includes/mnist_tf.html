@@ -55,6 +55,8 @@
     metrics: ['accuracy'],
   });
 
+  let data = new data();
+
   const BATCH_SIZE = 64;
 
   const TRAIN_BATCHES = 100;
@@ -64,6 +66,8 @@
 
   // Begin training
   for(let i=0; i<TRAIN_BATCHES; i++){
+
+
     const batch = data.nextTrainBatch(BATCH_SIZE);
 
     let testBatch;

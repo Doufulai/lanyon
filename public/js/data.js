@@ -15,6 +15,8 @@
  * =============================================================================
  */
 
+import * as tf from "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.0";
+
 const IMAGE_SIZE = 784;
 const NUM_CLASSES = 10;
 const NUM_DATASET_ELEMENTS = 65000;
@@ -93,7 +95,7 @@ class MnistData {
     this.trainIndices = tf.util.createShuffledIndices(NUM_TRAIN_ELEMENTS);
     this.testIndices = tf.util.createShuffledIndices(NUM_TEST_ELEMENTS);
 
-    console.log(this.trainIndices)
+    console.log(this.trainIndices);
 
     // Slice the the images and labels into train and test sets.
     this.trainImages =

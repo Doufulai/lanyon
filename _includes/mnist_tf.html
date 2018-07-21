@@ -42,7 +42,7 @@
 
   // create a dense layer for final classifier
   model.add(tf.layers.dense({
-    units: 10;// size of the output layer
+    units: 10,// size of the output layer
     kernelInitializer: 'VarianceScaling',
     activation: 'softmax'
   }));

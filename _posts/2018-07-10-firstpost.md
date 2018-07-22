@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Tensorflow Mnist Demo
-tags: Tensorflow Project
+title: TensorflowJS Mnist Demo
+meta: hahahaha
 comments: true
+tags: [Tech, Personal]
 ---
 
-## This is a tensorflow.js demo
-
-Hahah
+I am using t
 
 <!-- <h1 class="trainingResult"> Training result </h1>
 

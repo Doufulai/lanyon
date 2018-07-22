@@ -7,10 +7,8 @@ comments: true
 
 ## This is a tensorflow.js demo
 
-<input type="text" id="mytext">
+Hahah
 
-<canvas id="myCanvas" width="200" height="100">
+<!-- <h1 class="trainingResult"> Training result </h1>
 
-</canvas>
-
-{% include mnist_tf.html %}
+{% include mnist_tf.html %} -->
